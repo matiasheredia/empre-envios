@@ -1,0 +1,534 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+/* CONTENEDOR */
+.contenedor {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Subtitulos */
+h2 {
+  display: flex;
+  padding: 15px 15px 15px 50px;
+  font-size: 35px;
+}
+
+/* HEADER */
+/*Amarillo ffff33 */
+header {
+  /*background-color: #2f2f2f;*/
+  background-color: white;
+  padding: 5px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-bottom: 4px solid #c53016;
+  z-index: 1;
+}
+
+.abrir {
+  display: none;
+}
+
+.cerrar {
+  display: none;
+}
+
+.navSecciones {
+  width: 100%;
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.navSecciones__logo {
+  position: relative;
+  right: 15px;
+  top: 2.3px;
+}
+
+.navSecciones__ul {
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.navSecciones__logoMobile {
+  display: none;
+}
+
+.navSecciones__logoMobilenav {
+  display: none;
+}
+
+.navSecciones__ulVinculo {
+  text-decoration: none;
+  /*color: #c9cccb;*/
+  color: black;
+  padding: 0 15px 0 15px;
+}
+.navSecciones__ulVinculo:hover {
+  /*color: yellow;*/
+  color: #ff0000;
+}
+
+/* PARTE CENTRAL INDEX */
+.centralIndex {
+  background-color: black;
+  color: #c9cccb;
+  height: 95vh;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centralIndex__logo {
+  align-items: center;
+  padding: 5px;
+}
+
+.centralIndex__slogan {
+  font-size: 30px;
+}
+
+.puntorojo {
+  color: #ff0000;
+}
+
+/* PARTE ABAJO INDEX */
+#descripcioninicio {
+  font-size: 25px;
+  padding: 50px 0px 50px 0px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.cuadrosinicio {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cuadrosinicio__posicion {
+  margin: 50px 50px 100px 50px;
+  padding: 15px 5px;
+  font-size: 35px;
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 15px;
+  width: 20%;
+}
+
+.cuadrosinicio__posicion:hover {
+  border: 3px solid red;
+}
+
+section a {
+  text-decoration: none;
+  color: #2f2f2f;
+}
+
+/* QUIENES SOMOS */
+.misionvision {
+  margin: 50px;
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+section div h3 {
+  padding: 0px 0px 12px 0px;
+  font-size: 20px;
+}
+
+/* QUE HACEMOS */
+.cobertura {
+  margin: 50px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cobertura__descripcion {
+  margin: 60px 0px 0px 75px;
+  font-weight: bold;
+}
+
+.cobertura__descripcion div {
+  margin: 0px 0px 10px 0px;
+}
+
+.cobertura__descripcion ul li {
+  margin: 0px 0px 0px 50px;
+}
+
+.cobertura__imagen img {
+  width: 555px;
+  border: 2px groove black;
+}
+
+/* GUIA */
+p div {
+  font-size: 20px;
+}
+
+section ol li {
+  list-style: none;
+}
+
+.filasguia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 20px;
+}
+
+.numeros {
+  font-size: 90px;
+  margin: 0px 0px 0px 30px;
+  text-align: center;
+  width: 20%;
+}
+
+.faqs__lista {
+  margin: 20px 20px;
+}
+
+/* FAQs */
+.faqs__lista {
+  margin: 15px 0px 35px 0px;
+}
+
+.faqs__listaul {
+  margin: 0px 0px 0px 3.5rem;
+}
+
+.faqs__listaprecios {
+  margin: 13px 0px;
+}
+
+.faqs__listapreciosAclaracion {
+  font-style: italic;
+  margin: 30px 0px 0px 0px;
+}
+
+/* CONTACTANOS */
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+/* PIE DE PAGINA */
+footer {
+  font-weight: bold;
+  border-top: 3px solid black;
+  position: relative;
+  margin: 300px 0px 0px 0px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-self: flex-end;
+  width: 85%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 300px;
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+  .contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  header {
+    padding: 0rem;
+    border-bottom: 4px solid #c53016;
+    position: -webkit-sticky;
+    position: sticky;
+  }
+
+  .navSecciones__logoMobilenav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 18px 15px;
+  }
+
+  .navSecciones__logoMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    top: 100px;
+  }
+
+  .navSecciones__logo {
+    display: none;
+  }
+
+  /* Boton para abrir el menu */
+  header .abrir {
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 6.5px;
+    width: 90px;
+  }
+
+  /* Cuando me abre el menu en mobile */
+  .navSecciones {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    z-index: 1;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: left 0.75s;
+  }
+
+  #navMobile:target {
+    left: 0;
+  }
+
+  /* agrandar el tamano del logo*/
+  .navSecciones__ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .navSecciones__ulVinculo {
+    color: black;
+    font-size: 30px;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+  header nav ul li {
+    margin: 15px 0;
+  }
+
+  /* Para cerrar el menu en mobile */
+  .cerrar {
+    display: block;
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    width: 50px;
+  }
+
+  .centralIndex__logo {
+    display: none;
+  }
+
+  .centralIndex__slogan {
+    font-size: 30px;
+    width: 400px;
+  }
+
+  .centralIndex {
+    height: 40vh;
+    padding: 70px;
+  }
+
+  #descripcioninicio {
+    padding: 45px 10px 75px;
+  }
+
+  .cuadrosinicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cuadrosinicio__posicion {
+    font-size: 40px;
+    width: 275px;
+    margin: 25px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 12px 0;
+  }
+
+  footer img {
+    display: block;
+    margin: auto;
+  }
+
+  .cobertura {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cobertura__descripcion {
+    margin: 0 0 50px;
+  }
+
+  .cobertura__imagen img {
+    width: 380px;
+    display: block;
+    margin: auto;
+  }
+
+  .numeros {
+    font-size: 80px;
+    margin: 0px 0px 0px 30px;
+    text-align: center;
+    width: 20%;
+  }
+}
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  header {
+    padding: 0rem;
+    border-bottom: 4px solid #c53016;
+    position: -webkit-sticky;
+    position: sticky;
+  }
+
+  .navSecciones__logoMobilenav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navSecciones__logoMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    top: 100px;
+  }
+
+  .navSecciones__logo {
+    display: none;
+  }
+
+  /* Boton para abrir el menu */
+  header .abrir {
+    display: none;
+  }
+
+  /* Logos header */
+  header img {
+    display: none;
+  }
+
+  /* agrandar el tamano del logo*/
+  .navSecciones__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .navSecciones__ulVinculo {
+    color: black;
+    font-size: 18px;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+  header nav ul li {
+    margin: 15px 0;
+  }
+
+  .centralIndex__slogan {
+    font-size: 30px;
+  }
+
+  .centralIndex__logo img {
+    width: 100%;
+  }
+
+  .centralIndex {
+    height: 60vh;
+    padding: 70px;
+  }
+
+  #descripcioninicio {
+    padding: 45px 10px 75px;
+  }
+
+  .cuadrosinicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cuadrosinicio__posicion {
+    font-size: 40px;
+    width: 300px;
+    margin: 25px;
+  }
+
+  .cobertura {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cobertura__descripcion {
+    margin: 0 0 50px;
+  }
+
+  .cobertura__imagen img {
+    width: 380px;
+    display: block;
+    margin: auto;
+  }
+
+  .numeros {
+    font-size: 80px;
+    margin: 0px 0px 0px 30px;
+    text-align: center;
+    width: 20%;
+  }
+}

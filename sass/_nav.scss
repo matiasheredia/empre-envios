@@ -1,0 +1,62 @@
+/*Amarillo ffff33 */
+
+header {
+  /*background-color: #2f2f2f;*/
+  background-color: white;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  border-bottom: 4px solid rgb(197, 48, 22);
+  z-index: 1;
+}
+
+.abrir {
+  display: none;
+}
+
+.cerrar {
+  display: none;
+}
+
+.navSecciones {
+  width: 100%;
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.navSecciones__logo {
+  position: relative;
+  right: 15px;
+  top: 2.3px;
+}
+
+.navSecciones__ul {
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.navSecciones__logoMobile {
+  display: none;
+}
+
+.navSecciones__logoMobilenav {
+  display: none;
+}
+
+.navSecciones__ulVinculo {
+  text-decoration: none;
+  /*color: #c9cccb;*/
+  color: black;
+  padding: 0 15px 0 15px;
+
+  &:hover {
+    /*color: yellow;*/
+    color: #ff0000;
+  }
+}

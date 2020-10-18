@@ -1,0 +1,25 @@
+p div {
+  font-size: 20px;
+}
+
+section ol li {
+  list-style: none;
+}
+
+.filasguia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 20px;
+}
+
+.numeros {
+  font-size: 90px;
+  margin: 0px 0px 0px 30px;
+  text-align: center;
+  width: 20%;
+}
+
+.faqs__lista {
+  margin: 20px 20px;
+}

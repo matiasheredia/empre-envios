@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+/* CONTENEDOR */
+
+.contenedor {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Subtitulos */
+@import "h2";
+
+/* HEADER */
+
+@import "nav";
+
+/* PARTE CENTRAL INDEX */
+
+@import "centralindex";
+
+/* PARTE ABAJO INDEX */
+
+@import "abajoindex";
+
+/* QUIENES SOMOS */
+
+@import "quienessomos";
+
+/* QUE HACEMOS */
+
+@import "quehacemos";
+
+/* GUIA */
+
+@import "guia";
+
+/* FAQs */
+
+@import "faqs";
+
+/* CONTACTANOS */
+
+@import "contactanos";
+
+/* PIE DE PAGINA */
+
+@import "footer";
+
+/* MOBILE */
+
+@import "mobile";
+
+/* TABLET */
+
+@import "tablet";

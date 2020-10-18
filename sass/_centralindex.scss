@@ -1,0 +1,25 @@
+.centralIndex {
+  background-color: black;
+  color: #c9cccb;
+  height: 95vh;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centralIndex__logo {
+  align-items: center;
+  padding: 5px;
+}
+
+.centralIndex__slogan {
+  font-size: 30px;
+}
+
+.puntorojo {
+  color: #ff0000;
+}
